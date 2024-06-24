@@ -1,0 +1,21 @@
+.socials {
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.twitter {
+    background-color: #1DA1F2;
+    color: white;
+}
+  
+.facebook {
+    background-color: #4267B2;
+    color: white;
+}
+
+.instagram {
+    background-color: #E1306C;
+    color: white;
+}

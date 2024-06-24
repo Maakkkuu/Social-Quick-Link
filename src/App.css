@@ -1,0 +1,66 @@
+@font-face {
+font-family: 'gg sans Bold';
+font-style: normal;
+font-weight: normal;
+src: local('gg sans Bold'), url('./assets/fonts/gg sans Bold.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'gg sans Normal Regular';
+font-style: normal;
+font-weight: normal;
+src: local('gg sans Normal Regular'), url('./assets/fonts/gg sans Regular.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'gg sans Medium Regular';
+font-style: normal;
+font-weight: normal;
+src: local('gg sans Medium Regular'), url('./assets/fonts/gg sans Medium.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'gg sans SemiBold Regular';
+font-style: normal;
+font-weight: normal;
+src: local('gg sans SemiBold Regular'), url('./assets/fonts/gg sans Semibold.woff') format('woff');
+}
+
+*,  *::before, *::after {
+  box-sizing: border-box;
+}
+
+
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #282b30;
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  font-family: 'gg sans Bold';
+  color: white;
+  font-size: 2rem;
+}
+
+.main-container {
+  
+  width: 50rem;
+  height: 100%;
+  text-align: center;
+}
+
+.link-container {
+  font-family: 'gg sans SemiBold Regular';
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Creates a grid with 2 columns of equal width */
+}
+
