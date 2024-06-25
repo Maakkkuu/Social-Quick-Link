@@ -1,6 +1,6 @@
 import './App.css'
 import Button from './components/Button'
-import profileImage from './assets/img/profile.jpg'
+import profileImage from './profile.jpg'
 
 function App() {
 
