@@ -48,25 +48,25 @@ h1, h2 {
 }
 
 h1 {
-  font-size: 2rem; /* Adjusted via media query below */
+  font-size: 2rem; 
 }
 
 h2 {
-  font-size: 1.5rem; /* Adjusted via media query below */
+  font-size: 1.5rem; 
 }
 
 .main-container {
   background-color: rgba(66,69,73, 0.5);
   padding-top: 2rem;
   width: 100%;
-  max-width: 50rem; /* Max width to prevent overly wide containers on large screens */
+  max-width: 50rem; 
   height: 100%;
   text-align: center;
 }
 
 .main-container > img {
-  width: 13rem; /* Adjusted via media query below */
-  height: 13rem; /* Adjusted via media query below */
+  width: 13rem; 
+  height: 13rem; 
   object-fit: cover;
   border-radius: 50%;
 }
@@ -74,7 +74,7 @@ h2 {
 .link-container {
   font-family: 'gg sans SemiBold Regular';
   display: grid;
-  grid-template-columns: 1fr 1fr; /* Adjusted via media query below */
+  grid-template-columns: 1fr 1fr; 
   justify-content: center;
 }
 
@@ -86,7 +86,7 @@ h2 {
   }
 
   .link-container {
-    grid-template-columns: 1fr; /* Single column layout for smaller screens */
+    grid-template-columns: 1fr; 
   }
 
   h1 {
