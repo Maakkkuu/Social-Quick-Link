@@ -17,6 +17,8 @@ function App() {
         <Button icon="Github" text="Github" link="https://github.com/Maakkkuu" />
         <Button icon="Linkedin" text="Linkedin" link="https://www.linkedin.com/in/makkukuma/" />
       </div>
+      <br></br>
+      <p>© 2024 Mark Jaily H. Peña</p>
     </div>
   )
 
