@@ -8,7 +8,7 @@ interface ButtonProps {
   icon: string;
 }
 
-const Button = ({ text, link, icon }: ButtonProps) => {
+export const Button = ({ text, link, icon }: ButtonProps) => {
   const getButtonClass = (buttonText: string) => {
     switch (buttonText) {
       case 'Twitter':
@@ -50,5 +50,3 @@ const Button = ({ text, link, icon }: ButtonProps) => {
     </a>
   );
 };
-
-export default Button;
