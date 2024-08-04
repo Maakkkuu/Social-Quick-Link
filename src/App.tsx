@@ -7,9 +7,8 @@ function App() {
 
   return (
     <div className='main-container'>
-      <img src={profileImage} alt="profile" />
-      
-      <h1><TypeAnimation
+      <img src={profileImage} alt="profile" /><br></br>
+      <TypeAnimation
       sequence={[
         // Same substring at the start will only be typed out once, initially
         'Mark Jaily H. Peña',
@@ -17,11 +16,11 @@ function App() {
         'Aspiring Developer',
         1000,
       ]}
-      wrapper="span"
+      wrapper="h1"
       speed={50}
       style={{ fontSize: '2rem', display: 'inline-block' }}
       repeat={Infinity}
-    /></h1>
+      />
       <hr></hr>
       <h2>Socials</h2>
       <div className='link-container'>
